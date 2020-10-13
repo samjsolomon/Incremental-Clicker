@@ -163,7 +163,7 @@ function checkAchievements() {
     achievements.catLover = true;
     document.getElementById("intro-msg").style.visibility = "hidden";
     document.getElementById("achievements").innerHTML +=
-      "<b>Cat lover</b>: Pet one time";
+      "<b>Cat Lover</b>: Pet one time";
   }
 
   if (autopetters >= 1 && !achievements.firstAutoPetter) {
@@ -180,7 +180,7 @@ function checkAchievements() {
   if (autopetters >= 10 && !achievements.superPetter) {
     achievements.superPetter = true;
     document.getElementById("achievements").innerHTML +=
-      "<br/> <b>Super petter</b>: Buy more than 10 autopetters";
+      "<br/> <b>Super Petter</b>: Buy more than 10 autopetters";
   }
 
   if (clickIncrement >= 2 && !achievements.toughLove) {
